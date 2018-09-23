@@ -1,0 +1,172 @@
+body{
+  overflow-x: hidden;
+  width:100%;
+}
+.navbar{
+
+}
+.nav-item .nav-link {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #ffffff !important;
+  padding:10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.nav-item .nav-contact{
+  border-radius: 5px;
+  background-color: #00529c;
+}
+.header{
+  background-image: url("/images/copy.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+}
+.firstfold{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+}
+.firstfold h1{
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 58px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: 2.4px;
+  text-align: center;
+}
+.about{
+   background-image: url("/images/aboutbg.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-content{
+  padding:60px 40px;
+}
+.about-content h4{
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  color: #00529c;
+}
+.about-content p{
+  font-family: 'Open Sans', sans-serif;
+   color: #34495e;
+   font-size: 18px;
+}
+.services{
+  padding:60px 40px;
+}
+.services h2{
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  color: #00529c;
+  text-align:center;
+  margin-bottom:40px;
+}
+.services h6{
+  color:#34495e;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align:center;
+  padding-top:20px;
+}
+
+.services p{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  color: #34495e;
+  text-align:left;
+  padding-top:10px;
+}
+.contact{
+  background-image: url("/images/car.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:80%;
+  text-align:center;
+}
+.contact-content{
+  background-image: url("/images/overlay.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100%;
+}
+.contact h4{
+  padding-top:40px;
+  font-family: Ubuntu;
+  font-size: 44px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.contact .form-control{
+  margin:30 0px;
+  border-radius: 3px;
+  border: solid 2px #ffffff;
+  
+  color: #ffffff;
+  
+}
+.contact button{
+  border-radius: 3px;
+  background-color: #ffffff;
+
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #00529c;
+}
+.footer{
+  background-color: #34495e;
+  padding-top: 20px;
+}
+.footer ul{
+  text-align:center;
+}
+.footer ul li{
+display:inline;
+padding:20px;
+
+}
+.footer p{
+  text-align:center;
+  color: #ffffff;
+}
