@@ -20,6 +20,7 @@ body{
     padding-right: 1rem;
     padding-left: 1rem;
 }
+
 .nav-item .nav-contact{
   border-radius: 5px;
   background-color: #00529c;
@@ -159,7 +160,7 @@ body{
   padding-top: 20px;
 }
 .footer ul{
-  text-align:center;
+  text-align:left;
 }
 .footer ul li{
 display:inline;
@@ -167,6 +168,15 @@ padding:20px;
 
 }
 .footer p{
+  text-align:right;
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .footer ul{
+  text-align:center;
+}
+.footer p{
   text-align:center;
   color: #ffffff;
+}
 }
